@@ -1,0 +1,22 @@
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+	background-color: bisque;
+}
+
+.logo,
+.title,
+.login {
+	display: flex;
+	flex-grow: 1;
+}
+
+.title {
+	justify-content: center;
+}
+
+.login {
+	justify-content: flex-end;
+}

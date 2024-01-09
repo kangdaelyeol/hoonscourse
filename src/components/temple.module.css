@@ -2,23 +2,26 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    padding: 50px;
 }
 
-.wrapper {
+.wrapper { /* 휴대폰 */
+    position: relative;
     border: 1px solid black;
     width: 360px;
     height: 800px;
-}
-
-.s1 {
-    position: relative;
-    width: 100%;
-    height: 300%;
     overflow-y: scroll;
 }
 
-.mycanvas {
+.scene { /* 씬 */
+    width: 100%;
+    height: 400%;
+}
+
+.mycanvas { /* 캔버스 */
     position: sticky;
     top: 0;
     left: 0;
+    width: 360px;
+    height: 800px;
 }
